@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     color: #1F8A70;
     text-decoration: none;
+    font-weight: bold;
     padding: 10px 20px;
 }
 
@@ -175,4 +176,39 @@ body {
     padding: 150px 0;
     display: inline-block;
     font-size: 200px;
+}
+
+/* SOCIAL SECTION */
+
+.socials {
+    background-color: #F9F5E7;
+    margin-top: 20px;
+}
+
+.socials-list-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials-check {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+}
+
+.socials-list {
+    display: flex;
+    list-style: none;
+}
+
+.socials-list-items-link {
+    padding: 0 10px;
+}
+
+.socials-list-items-link img:hover {
+    opacity: 0.5;
+}
+
+.socials-list-items-link img:active {
+    opacity: 0.3;
 }
