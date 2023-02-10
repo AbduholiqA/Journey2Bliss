@@ -7,7 +7,7 @@ body {
 /* CONTAINER */
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -211,4 +211,58 @@ body {
 
 .socials-list-items-link img:active {
     opacity: 0.3;
+}
+
+/* ABOUT US SECTION */
+
+.about {
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    max-width: 700px;
+}
+
+.about-list-items {
+    margin-right: 30px;
+}
+
+.about-list-items-second {
+    box-shadow: 5px 10px #888888;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    height: 300px;
+}
+
+.about-name {
+    font-family: 'Ubuntu', sans-serif;
+    color: #1F8A70;
+}
+
+.about-occupation {
+    color: #BDCDD6;
+}
+
+.about-list-link {
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-list-link:hover {
+    opacity: .5;
+}
+
+.about-list-link:active {
+    opacity: .3;
 }
