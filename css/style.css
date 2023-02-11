@@ -266,3 +266,11 @@ body {
 .about-list-link:active {
     opacity: .3;
 }
+
+/* FOOTER */
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #332C39;
+}
